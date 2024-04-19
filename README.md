@@ -8,6 +8,14 @@ Captcha for Python, which generates captcha image by Rust.
 - Simple, Easy to use;
 - High performance.
 
+## Install
+
+Install captchax with pip:
+
+```bash
+pip install captchax
+```
+
 ## Usage
 
 ```python
