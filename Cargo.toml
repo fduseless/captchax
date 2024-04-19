@@ -1,0 +1,16 @@
+[package]
+name = "captchax"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "captchax"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.20.0"
+image = "0.24"
+imageproc = "0.23"
+rand = "0.8.5"
+rusttype = "0.9.2"
